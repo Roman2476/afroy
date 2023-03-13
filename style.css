@@ -1,0 +1,293 @@
+.header{
+    background-color: #131415;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    background-color: white;
+}
+
+.bigcont{
+    width: 1100px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+}
+
+.menu__list{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts{
+    width: 180px;
+}
+
+.menu__item{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.menu__link{
+    color: rgb(255, 255, 255)
+}
+
+.afro{
+    color: #ff9900;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.shcedule__link{
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #ffa600;
+}
+
+.tel__link{
+    color: white;
+    font-family: sans-serif;
+}
+
+.body__1{
+    text-align: left;
+    width: 880px;
+    height: 88px;
+}
+
+.colont{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.maine{
+    color: #f89500;
+    font-size: 16px;
+}
+
+.other__colont{
+    color: grey;
+    font-size: 16px;
+}
+
+.otzv{
+    text-align: left;
+    color: black;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.title{
+    width: 880px;
+    height: 85px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dio{
+    background-image: url(main_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+
+}
+
+.star{
+    background-image: url("feed_icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+
+}
+
+.weigh{
+    background-image: url(service_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+
+}
+
+html{
+    font-size: 14px;
+}
+.title{
+    text-align: center;
+    color: #b28746;
+    font-size: 3rem;
+}
+
+.otzv{
+    text-align: left;
+    color: black;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.containeer{
+    max-width: 960px;
+    margin: auto;
+}
+
+.cards__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards__item{
+    width: calc(100%/3 - 20px);
+    margin-bottom: 20px;
+}
+
+.pic{
+    height: 200px;
+
+}
+
+@media(max-width: 1200px){
+    .title{
+        font-size: 2rem;
+    }
+
+
+    .cards__item{
+    width: calc(100%/2 - 20px);
+    }
+}
+
+@media(max-width: 992px){
+    .title{
+        font-size: 1rem;
+    }
+
+
+    .cards__item{
+        width: 300px
+    }
+
+    .cards__list{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px){
+    .title{
+        font-size: 0.5rem;
+    }
+
+}
+
+.a1{
+    background-image: url("sports-1962574_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    
+}
+
+.a2{
+    background-image: url("apple-841169_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.a3{
+    background-image: url("yoga-1146277_1920.jpg");
+    background-color: #242525;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.a4{
+    background-image: url("trx-1730331_1920.jpg");
+    background-color: #242525;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    display: flex;
+}
+
+.a5{
+    background-image: url("women-1621297_1920.jpg");
+    background-color: #242525;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    
+}
+
+.a6{
+    background-image: url("swimming-78112_1920.jpg");
+    background-color: #242525;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+
+.tit{
+    font-size: 20px;
+    color: #242525;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.t6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.z{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.5);  
+}
+.te{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size:2rem ;
+    font-weight: bold;
+    position: relative;
+}
+.tit{
+    font-size:1,5rem ;
+    color: #131415;
+}
